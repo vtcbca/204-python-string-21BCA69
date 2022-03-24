@@ -7,7 +7,12 @@ def createList():
 a=createList()
 print(a)
 count=0
-
-# def strlen(a):
+def strlen(l):
+     count=0
+     for i in l:
+         for j in i:
+             if(l%2==0):
+                 count+=1
+     return(count)       
     
     
